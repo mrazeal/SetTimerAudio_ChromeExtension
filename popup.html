@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body { 
+                min-width: 420px; 
+                overflow-x: hidden; 
+                font-family: Arial, sans-serif; 
+                font-size: 12px; 
+            }
+            input, textarea { 
+                width: 420px; 
+            }
+            input#save { 
+                font-weight: bold; width: auto; 
+            }
+        </style>
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <p><label for="title">Audio File</label><br />
+        <input type="text" id="audiofilename" name="audiofilename" size="50" value="" /></p>
+        <p>
+            <button id="savebut" value="Set audio">Set audio</button>
+        </p>
+    </body>
+</html>
